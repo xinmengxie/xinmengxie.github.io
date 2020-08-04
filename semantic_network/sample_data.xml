@@ -1,0 +1,237 @@
+<XMLRepositoryRecords xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <Provider>PROVIDER1</Provider>
+        <providerDateTime>TIMESTAMP1</providerDateTime>
+        <recordCount>1</recordCount>
+    </Header>
+    <XMLRepositoryRecord ItemID="ITEMIDXXX">
+        <rcSystem>
+            <contentDateTime>TIMESTAMP2</contentDateTime>
+            <notes />
+            <deleted>No</deleted>
+        </rcSystem>
+        <document>
+            <documentType>TYPE1</documentType>
+            <documentID>DOCID1</documentID>
+            <documentName>XXX</documentName>
+            <webNonweb>Web</webNonweb>
+            <documentLinkURL>www.docXXX.pdf</documentLinkURL>
+            <documentLanguage />
+            <documentPDFLinks>
+                <documentPDFLink SrNo="999999">
+                    <PDFLink>www.PDFXXX.com</PDFLink>
+                    <PDFLanguage />
+                    <PDFDocumentName>XXX.pdf</PDFDocumentName>
+                    <TranslationType xsi:nil="true" />
+                </documentPDFLink>
+            </documentPDFLinks>
+        </document>
+        <updateContent>
+            <regulator>Regulator A</regulator>
+            <updateType>New/Amend</updateType>
+            <documentTitle>XXX</documentTitle>
+            <filingStatus>Approved</filingStatus>
+            <materialChange>No</materialChange>
+            <summary>ABC Co. was fined *** dollars by regulator A for violating Rule xxx</summary>
+            <rulesAffected>
+                <rules />
+            </rulesAffected>
+        </updateContent>
+        <updateDates>
+            <filingDate>TIMESTAMP3</filingDate>
+            <effectiveDate>TIMESTAMP4</effectiveDate>
+            <effectiveDateType>Effective</effectiveDateType>
+            <commentsDueDate xsi:nil="true" />
+            <releaseDate>TIMESTAMP5</releaseDate>
+        </updateDates>
+        <updateMetadata>
+            <updateJurisdictions>
+                <updateJurisdiction SrNo="99999">
+                    <region>North America</region>
+                    <country>United States of America</country>
+                    <jurisdiction />
+                </updateJurisdiction>
+            </updateJurisdictions>
+            <updateLineOfBusinesses>
+                <updateLineOfBusiness SrNo="99999">
+                    <industrySector>Financial Services</industrySector>
+                    <lineOfBusiness>Securities</lineOfBusiness>
+                    <subLineofBusiness />
+                </updateLineOfBusiness>
+            </updateLineOfBusinesses>
+            <updateFunctionalAreas>
+                <updateFunctionalArea SrNo="0">
+                    <functionalProcess />
+                    <functionalArea />
+                </updateFunctionalArea>
+            </updateFunctionalAreas>
+            <updateTopics>
+                <Topic SrNo="0">
+                    <level1 />
+                    <level2 />
+                    <level3 />
+                </Topic>
+            </updateTopics>
+        </updateMetadata>
+        <associatedCases />
+    </XMLRepositoryRecord>
+    <XMLRepositoryRecord ItemID="ITEMIDXXXX">
+        <rcSystem>
+            <contentDateTime>TIMESTAMP6</contentDateTime>
+            <notes />
+            <deleted>No</deleted>
+        </rcSystem>
+        <document>
+            <documentType>DOCTYPE</documentType>
+            <documentID>DOCID</documentID>
+            <documentName>XXX</documentName>
+            <webNonweb>Web</webNonweb>
+            <documentLinkURL>www.docXXX.com</documentLinkURL>
+            <documentLanguage />
+            <documentPDFLinks>
+                <documentPDFLink SrNo="999999">
+                    <PDFLink>www.PDFXXX.com</PDFLink>
+                    <PDFLanguage>English</PDFLanguage>
+                    <PDFDocumentName>XXX.pdf</PDFDocumentName>
+                    <TranslationType xsi:nil="true" />
+                </documentPDFLink>
+            </documentPDFLinks>
+        </document>
+        <updateContent>
+            <regulator>Regulator X</regulator>
+            <updateType>Release</updateType>
+            <documentTitle>XXX</documentTitle>
+            <filingStatus xsi:nil="true" />
+            <materialChange>No</materialChange>
+            <summary>DEF Co. violated Rule xxx</summary>
+            <rulesAffected>
+                <rules ruleRelationship="Referenced">
+                    <rule SrNo="999999">
+                        <asCategory1ID>CATID1</asCategory1ID>
+                        <asCategory1Name>CATNAME1</asCategory1Name>
+                        <asCategory2ID>CATID2</asCategory2ID>
+                        <asCategory2Name>CATNAME2</asCategory2Name>
+                        <asCategory3ID>CATID3</asCategory3ID>
+                        <asCategory3Name>CATNAME3</asCategory3Name>
+                        <authoritativeSourceId>AUTID</authoritativeSourceId>
+                        <authoritativeSourceName>AUTNAME</authoritativeSourceName>
+                        <citationID>CITID</citationID>
+                        <citationName>CITNAME</citationName>
+                        <affectedLinks>
+                            <affectedLink SrNo="999999">
+                                <URL />
+                            </affectedLink>
+                        </affectedLinks>
+                    </rule>
+                    <rule SrNo="999999">
+<asCategory1ID>CATID1</asCategory1ID>
+                        <asCategory1Name>CATNAME1</asCategory1Name>
+                        <asCategory2ID>CATID2</asCategory2ID>
+                        <asCategory2Name>CATNAME2</asCategory2Name>
+                        <asCategory3ID>CATID3</asCategory3ID>
+                        <asCategory3Name>CATNAME3</asCategory3Name>
+                        <authoritativeSourceId>AUTID</authoritativeSourceId>
+                        <authoritativeSourceName>AUTNAME</authoritativeSourceName>
+                        <citationID>CITID</citationID>
+                        <citationName>CITNAME</citationName>
+                        <affectedLinks>
+                            <affectedLink SrNo="999999">
+                                <URL />
+                            </affectedLink>
+                        </affectedLinks>
+                    </rule>
+                    <rule SrNo="999999">
+<asCategory1ID>CATID1</asCategory1ID>
+                        <asCategory1Name>CATNAME1</asCategory1Name>
+                        <asCategory2ID>CATID2</asCategory2ID>
+                        <asCategory2Name>CATNAME2</asCategory2Name>
+                        <asCategory3ID>CATID3</asCategory3ID>
+                        <asCategory3Name>CATNAME3</asCategory3Name>
+                        <authoritativeSourceId>AUTID</authoritativeSourceId>
+                        <authoritativeSourceName>AUTNAME</authoritativeSourceName>
+                        <citationID>CITID</citationID>
+                        <citationName>CITNAME</citationName>
+                        <affectedLinks>
+                            <affectedLink SrNo="999999">
+                                <URL />
+                            </affectedLink>
+                        </affectedLinks>
+                    </rule>
+                    <rule SrNo="999999">
+<asCategory1ID>CATID1</asCategory1ID>
+                        <asCategory1Name>CATNAME1</asCategory1Name>
+                        <asCategory2ID>CATID2</asCategory2ID>
+                        <asCategory2Name>CATNAME2</asCategory2Name>
+                        <asCategory3ID>CATID3</asCategory3ID>
+                        <asCategory3Name>CATNAME3</asCategory3Name>
+                        <authoritativeSourceId>AUTID</authoritativeSourceId>
+                        <authoritativeSourceName>AUTNAME</authoritativeSourceName>
+                        <citationID>CITID</citationID>
+                        <citationName>CITNAME</citationName>
+                        <affectedLinks>
+                            <affectedLink SrNo="999999">
+                                <URL />
+                            </affectedLink>
+                        </affectedLinks>
+                    </rule>
+                    <rule SrNo="999999">
+<asCategory1ID>CATID1</asCategory1ID>
+                        <asCategory1Name>CATNAME1</asCategory1Name>
+                        <asCategory2ID>CATID2</asCategory2ID>
+                        <asCategory2Name>CATNAME2</asCategory2Name>
+                        <asCategory3ID>CATID3</asCategory3ID>
+                        <asCategory3Name>CATNAME3</asCategory3Name>
+                        <authoritativeSourceId>AUTID</authoritativeSourceId>
+                        <authoritativeSourceName>AUTNAME</authoritativeSourceName>
+                        <citationID>CITID</citationID>
+                        <citationName>CITNAME</citationName>
+                        <affectedLinks>
+                            <affectedLink SrNo="999999">
+                                <URL />
+                            </affectedLink>
+                        </affectedLinks>
+                    </rule>
+                </rules>
+            </rulesAffected>
+        </updateContent>
+        <updateDates>
+            <filingDate>TIMESTAMP7</filingDate>
+            <effectiveDate>TIMESTAMP8</effectiveDate>
+            <effectiveDateType>Effective</effectiveDateType>
+            <commentsDueDate xsi:nil="true" />
+            <releaseDate>TIMESTAMP9</releaseDate>
+        </updateDates>
+        <updateMetadata>
+            <updateJurisdictions>
+                <updateJurisdiction SrNo="99999">
+                    <region>North America</region>
+                    <country>United States of America</country>
+                    <jurisdiction />
+                </updateJurisdiction>
+            </updateJurisdictions>
+            <updateLineOfBusinesses>
+                <updateLineOfBusiness SrNo="99999">
+                    <industrySector>Financial Services</industrySector>
+                    <lineOfBusiness>Securities</lineOfBusiness>
+                    <subLineofBusiness />
+                </updateLineOfBusiness>
+            </updateLineOfBusinesses>
+            <updateFunctionalAreas>
+                <updateFunctionalArea SrNo="0">
+                    <functionalProcess />
+                    <functionalArea />
+                </updateFunctionalArea>
+            </updateFunctionalAreas>
+            <updateTopics>
+                <Topic SrNo="0">
+                    <level1 />
+                    <level2 />
+                    <level3 />
+                </Topic>
+            </updateTopics>
+        </updateMetadata>
+        <associatedCases />
+    </XMLRepositoryRecord>
+    <errors xsi:nil="true" />
+    <lastRecordDateTime>TIMESTAMP10</lastRecordDateTime>
+</XMLRepositoryRecords>
